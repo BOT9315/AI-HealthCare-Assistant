@@ -36,8 +36,6 @@ def img_to_encoding(path, model):
   return embedding
 
 database = {}
-
-
 def verify(image_path, identity, database, model):
   
     encoding = img_to_encoding(image_path, model)
